@@ -24,16 +24,22 @@ const ColorList = ({ colors, updateColors }) => {
   // where is is saved right now?
 
   const saveEdit = (e) => {
-    // e.preventDefault();
-    // axiosWithAuth.put(`http://localhost:5000/api/colors/${colorToEdit.id}`)
-    // .then((res) => {
-    //   setColorToEdit(res.data)
-    // })
-    // .catch((err) => console.log(err))
+    e.preventDefault();
+    axiosWithAuth().put(`http://localhost:5000/api/colors/${id}`, colorToEdit)
+    .then((res) => {
+      console.log(res.data)
+      setColorToEdit(res.data)
+    })
+    .catch((err) => console.log(err))
   };
 
   const deleteColor = (color) => {
-    // make a delete request to delete this color
+    axiosWithAuth().delete(`http://localhost:5000/api/colors/${color.id}`)
+    .then((res) => {
+      console.log(res)
+      setColorToEdit(res.data)
+    })
+    .catch((err) => console.log(err))
   };
 
   return (

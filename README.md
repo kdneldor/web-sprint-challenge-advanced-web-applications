@@ -28,9 +28,20 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain what a token is used for.
+
+  TOKENS ARE USED TO SECURELY TRANSMIT DATA AS A JSON OBJECT.
+
 2. What steps can you take in your web apps to keep your data secure?
+
+  SETTING UP PRIVATE ROUTES, TOKENS, AND axiosWithAuth CRUD OPERATIONS.
+
 3. Describe how web servers work.
+
+  THE SERVER PROCESSES REQUESTS. THEY STORE, PROCESS, AND DELIVER PAGES TO WHATEVER CLIENT IS ACCESSING THE SERVER. 
+
 4. Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+  GET, POST, PUT, AND DELETE
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -67,8 +78,8 @@ Build a login form to authenticate your users.
 #### Stage 2 - Consuming the API
 
 - [ x] When `BubblePages` renders, make a GET request to fetch the color data for your bubbles.
-- [ ] In `ColorList.js`, complete the `saveEdit` and `deleteColor` functions to make AJAX requests to the API to edit/delete data
-- [ ] Watch and enjoy as your app responds to updates in the data. Check out `Bubbles.js` to see how this is built.
+- [ x] In `ColorList.js`, complete the `saveEdit` and `deleteColor` functions to make AJAX requests to the API to edit/delete data
+- [ x] Watch and enjoy as your app responds to updates in the data. Check out `Bubbles.js` to see how this is built.
 
 #### API Documentation
 
