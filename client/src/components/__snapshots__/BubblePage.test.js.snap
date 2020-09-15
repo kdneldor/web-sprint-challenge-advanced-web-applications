@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fetches data and renders the bubbles 1`] = `
+<DocumentFragment>
+  <div
+    class="colors-wrap"
+  >
+    <p>
+      colors
+    </p>
+    <ul />
+    <div
+      class="spacer"
+    />
+  </div>
+  <div
+    class="bubble-wrap"
+  >
+    <p>
+      bubbles
+    </p>
+    <svg
+      height="400"
+      width="400"
+    >
+      <g />
+    </svg>
+  </div>
+</DocumentFragment>
+`;
